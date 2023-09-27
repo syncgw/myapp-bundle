@@ -11,7 +11,7 @@
 If you require any another interface bundle for which you're need a handler not listed here, you may either develop your own (for more information, please read our **Developer Guide** [here](https://github.com/syncgw/doc-bundle/blob/master/Downloads.md).
 
 ## Installation ##
-To install the **sync•gw mysql bundle** please go to your web server base directory and enter
+To install the **sync•gw MyApp bundle** please go to your web server base directory and enter
 
 ```bash
 composer require syncgw/myapp-bundle
