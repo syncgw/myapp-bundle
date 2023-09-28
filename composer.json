@@ -1,5 +1,6 @@
 {
 	"name" : "syncgw/myapp-bundle",
+	"description" : "sync•gw MyApp bundle.",
 	"license" : "LGPL-3.0-or-later",
 	"homepage" : "https://github.com/syncgw/file-bundle",
 	"authors" : [{
