@@ -14,7 +14,6 @@ namespace syncgw\interface\myapp;
 
 use syncgw\lib\Config;
 use syncgw\lib\DataStore;
-use syncgw\lib\XML;
 use syncgw\gui\guiHandler;
 use syncgw\interface\DBAdmin;
 
@@ -37,17 +36,6 @@ class Admin extends \syncgw\interface\mysql\Admin implements DBAdmin {
             self::$_obj = new self();
 
 		return self::$_obj;
-	}
-
-    /**
-	 * 	Collect information about class
-	 *
-	 * 	@param 	- Object to store information
-     *	@param 	- true = Provide status information only (if available)
-	 */
-	public function getInfo(XML &$xml, bool $status): void {
-
-		$xml->addVar('Opt', 'MyApp administration handler');
 	}
 
     /**
