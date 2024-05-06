@@ -69,7 +69,7 @@ class Admin extends \syncgw\interface\mysql\Admin implements DBAdmin {
 			$cnf->updVar('Usr_Parm', $v);
 
 		// create our own tables
-		$cmds = parent::loadSQL('assets/myapp/tables.sql');
+		$cmds = parent::loadSQL(__DIR__.'/../assets/tables.sql');
 		parent::mkTable($cmds);
 
 		return parent::Connect();
@@ -87,7 +87,7 @@ class Admin extends \syncgw\interface\mysql\Admin implements DBAdmin {
 		$cnf->updVar('Usr_Parm', '');
 
 		// delete our own tables
-		$cmds = parent::loadSQL('assets/myapp/tables.sql');
+		$cmds = parent::loadSQL(__DIR__.'/../assets/tables.sql');
 		parent::delTable($cmds);
 
 		return parent::DisConnect();
