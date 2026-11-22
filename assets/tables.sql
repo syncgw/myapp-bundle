@@ -4,7 +4,7 @@
 --	@package	sync*gw
 --	@subpackage	myApp handler
 --	@copyright	(c) 2008 - 2026 Florian Daeumling, Germany. All right reserved
--- 	@license 	LGPL-3.0-or-later
+-- 	@license 	https://www.gnu.org/licenses/gpl-3.0.en.html
 --
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 

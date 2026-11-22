@@ -7,10 +7,12 @@
 **sync•gw** is the one and only fully portable server software available providing synchronization service between nearly any mobile device and your web server.
 
 ## MyApp bundle for sync•gw ##
+
 **sync•gw** requires an interface bundle to store and handle data during synchronization. 
 If you require any another interface bundle for which you're need a handler not listed here, you may either develop your own (for more information, please read our **Developer Guide** [here](https://github.com/syncgw/doc-bundle/blob/master/Downloads.md).
 
 ## Installation ##
+
 To install the **sync•gw MyApp bundle** please go to your web server base directory and enter
 
 ```bash
@@ -18,7 +20,8 @@ composer require syncgw/myapp-bundle
 ```
 
 ## License ##
-This plugin is released under the [GNU General Public License v3.0](./LICENSE).
+
+This software is released under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
 ## Donation ##
 
